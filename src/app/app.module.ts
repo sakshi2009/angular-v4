@@ -9,6 +9,7 @@ import { ProductListComponent } from './product-list/product-list.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
 import { ProductAlertsComponent } from './product-alerts/product-alerts.component';
+import { ProductDetailsComponent } from './product-details/product-details.component';
 
 @NgModule({
   imports: [BrowserModule,
@@ -23,7 +24,8 @@ import { ProductAlertsComponent } from './product-alerts/product-alerts.componen
     LoginComponent,
     TopBarComponent,
     ProductListComponent,
-    ProductAlertsComponent
+    ProductAlertsComponent,
+    ProductDetailsComponent
   ],
   bootstrap: [AppComponent]
 })
