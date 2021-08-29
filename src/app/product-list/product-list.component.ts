@@ -9,10 +9,10 @@ import { products } from '../products';
 export class ProductListComponent implements OnInit {
   productsInside = products;
   constructor() {}
-  share(){
-    window.alert("Product details shared !")
+  share() {
+    window.alert('Product details shared !');
   }
-  onNotify(){
+  onNotify() {
     window.alert('You will be notified when the product goes on sale');
   }
 
